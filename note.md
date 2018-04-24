@@ -4,9 +4,11 @@ Go to https://nodejs.org/en/, and install the newest version of Node.js
 
 Alternately, if you're on Mac, you can use `brew install node` to install `Node.js` and `npm`.
 
+To check if they're successfully installed use `node -v` and `npm -v`
+
 # Install Truffle
 
-Make sure you have Node.js installed properly, and run
+Make sure you have `Node.js` installed properly, and run
 ```sh
 npm install -g truffle
 ```
@@ -30,13 +32,13 @@ module.exports = {
 };
 ```
 
-# Run Ethereum client and migrate the contract
+# Run [Ethereum client](https://ethereum.stackexchange.com/questions/269/what-exactly-is-an-ethereum-client-and-what-clients-are-there) and migrate the contract
 
 I will use truffle develop. To run truffle develop, run:
 ```sh
 truffle develop
 ``` 
-After the client is run, you should see a truffle console, in which you can execute [truffle commands](http://truffleframework.com/docs/advanced/commands) or [interact with the contract](http://truffleframework.com/docs/getting_started/contracts) using javascript. But before we can interact with the contract, we will have to migrate the contract to the Ethereum network(here we are using the develop network, which is a private network for testing purpose). To migrate, simply execute:
+After the client is run, you should see a *truffle console*, in which you can execute [truffle commands](http://truffleframework.com/docs/advanced/commands) or [interact with the contract](http://truffleframework.com/docs/getting_started/contracts) using javascript. But before we can interact with the contract, we will have to migrate the contract to the Ethereum network (here we are using the develop network, which is a private network for testing purpose). To migrate, simply execute:
 ```sh
 migrate
 ```
@@ -44,7 +46,7 @@ Now the contract should be ready.
 
 # Interact with the contract
 
-The following examples are from [here](http://truffleframework.com/docs/getting_started/contracts)
+The following examples are from [here](http://truffleframework.com/docs/getting_started/contracts).
 For example, now we want to look up the metacoin balance in this address `0x627306090abab3a6e1400e9345bc60c78a8bef57`, we can run:
 ```js
 var account_one = "0x627306090abab3a6e1400e9345bc60c78a8bef57";
