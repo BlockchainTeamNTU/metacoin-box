@@ -1,6 +1,7 @@
 # Install Node.js
 
 Go to https://nodejs.org/en/, and install the newest version of Node.js
+
 Alternately, if you're on Mac, you can use `brew install node` to install `Node.js` and `npm`.
 
 # Install Truffle
