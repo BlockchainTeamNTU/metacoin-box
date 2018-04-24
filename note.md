@@ -1,4 +1,3 @@
-e8b080b2056320e02bfc494f06a91080737169fc
 # Install Node.js
 
 Go to https://nodejs.org/en/, and install the newest version of Node.js
